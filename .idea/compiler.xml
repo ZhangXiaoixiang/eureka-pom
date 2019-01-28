@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-invoker" />
+        <module name="eureka-cloud-invoker" />
+        <module name="eureka-cloud-provider" />
+        <module name="eureka-cloud-rest-client" />
+        <module name="eureka-cloud-server" />
         <module name="eureka-pom" />
-        <module name="eureka-provider" />
-        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-palyerinfo" target="1.8" />
       <module name="cloud-playerinfo" target="1.8" />
+      <module name="eureka-invoker" target="1.8" />
+      <module name="eureka-provider" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -22,10 +25,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-palyerinfo" options="-parameters" />
       <module name="cloud-playerinfo" options="-parameters" />
+      <module name="eureka-cloud-invoker" options="-parameters" />
+      <module name="eureka-cloud-provider" options="-parameters" />
+      <module name="eureka-cloud-rest-client" options="-parameters" />
+      <module name="eureka-cloud-server" options="-parameters" />
       <module name="eureka-invoker" options="-parameters" />
       <module name="eureka-pom" options="" />
       <module name="eureka-provider" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
       <module name="test" options="-parameters" />
     </option>
   </component>

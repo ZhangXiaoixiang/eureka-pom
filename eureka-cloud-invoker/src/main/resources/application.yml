@@ -1,0 +1,14 @@
+#服务调用者
+server:
+  port: 9000
+#注册调用,相当于写一个bean到容器,交由eureka服务器管理
+spring:
+  application:
+    name: eureka-cloud-invoker
+#服务调用者的地址(现在demo采用本机作为服务提供者的地址)
+eureka:
+  instance:
+    hostname: localhost
+#配置服务的注册地址
+    default-address-resolution-order: http://slave1:8761/eureka/,http://slave2:8761/eureka/
+
