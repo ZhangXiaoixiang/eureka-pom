@@ -1,0 +1,11 @@
+#eureka-server----------------------服务端
+#指服务明端口号
+server:
+  port: 8761
+
+#  注册开关,由于是服务端,所以关闭抓取功能(启动就不会报错java.net.ConnectException: Connection refused: connect)
+eureka:
+  client:
+    fetch-registry: false
+    # 不需要将自己注册(自己就相当于不会出现在监控页面)
+    register-with-eureka: false

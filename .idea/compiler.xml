@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-invoker" />
+        <module name="eureka-pom" />
+        <module name="eureka-provider" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-palyerinfo" target="1.8" />
+      <module name="cloud-playerinfo" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-palyerinfo" options="-parameters" />
+      <module name="cloud-playerinfo" options="-parameters" />
+      <module name="eureka-invoker" options="-parameters" />
+      <module name="eureka-pom" options="" />
+      <module name="eureka-provider" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>
