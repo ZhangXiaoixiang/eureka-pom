@@ -97,7 +97,9 @@ public class InvokerApi {
         for (ServiceInstance serviceInstance : serviceInstances) {
             EurekaDiscoveryClient.EurekaServiceInstance esi = (EurekaDiscoveryClient.EurekaServiceInstance) serviceInstance;
             InstanceInfo instanceInfo = esi.getInstanceInfo();
-            System.out.println("没有查询到服务,那么不会显示DOWN的,只有UP会显示:n"+"服务名称:  "+instanceInfo.getAppName() + "服务ID:  " + instanceInfo.getInstanceId() + "服务目前的状态" + instanceInfo.getStatus());
+            System.out.println("没有查询到服务,那么不会显示DOWN的,只有UP会显示");
+
+            System.out.println("服务名称:  "+instanceInfo.getAppName() + "   服务ID:  " + instanceInfo.getInstanceId() + "   服务目前的状态:     " + instanceInfo.getStatus());
 
         }
 

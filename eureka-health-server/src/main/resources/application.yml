@@ -15,6 +15,10 @@ eureka:
   client:
     #    注册到下面一个配置
     default-address-resolution-order: http://slave2:8762/eureka/
+    #    关闭自我保护
+  server:
+    enable-self-preservation: false
+
 ---
 #配置另一个服务器
 server:
@@ -28,3 +32,5 @@ eureka:
   client:
     #    注册到上一个配置
     default-address-resolution-order: http://slave1:8761/eureka/
+  server:
+    enable-self-preservation: false
