@@ -10,3 +10,5 @@ eureka:
     client:
 #配置服务的注册地址(由于是集群,所以2个服务地址)
     default-address-resolution-order: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+#    心跳(定时器)时间秒
+    lease-renewal-interval-in-seconds: 10

@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/eureka-cloud-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cloud-rest-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cloud-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-health-invoker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-health-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-health-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-invoker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />

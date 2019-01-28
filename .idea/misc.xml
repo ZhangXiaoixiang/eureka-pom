@@ -6,10 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-slave/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-cloud-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-cloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-cloud-invoker/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-cloud-rest-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-health-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-health-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-health-invoker/pom.xml" />
       </list>
     </option>
   </component>

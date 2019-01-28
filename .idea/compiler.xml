@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-cloud-invoker" />
-        <module name="eureka-cloud-provider" />
         <module name="eureka-cloud-rest-client" />
-        <module name="eureka-cloud-server" />
+        <module name="eureka-health-invoker" />
+        <module name="eureka-health-provider" />
+        <module name="eureka-health-server" />
         <module name="eureka-pom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-palyerinfo" target="1.8" />
       <module name="cloud-playerinfo" target="1.8" />
-      <module name="eureka-invoker" target="1.8" />
-      <module name="eureka-provider" target="1.8" />
+      <module name="eureka-cloud-provider" target="1.8" />
+      <module name="eureka-cloud-server" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -29,9 +30,10 @@
       <module name="eureka-cloud-provider" options="-parameters" />
       <module name="eureka-cloud-rest-client" options="-parameters" />
       <module name="eureka-cloud-server" options="-parameters" />
-      <module name="eureka-invoker" options="-parameters" />
+      <module name="eureka-health-invoker" options="-parameters" />
+      <module name="eureka-health-provider" options="-parameters" />
+      <module name="eureka-health-server" options="-parameters" />
       <module name="eureka-pom" options="" />
-      <module name="eureka-provider" options="-parameters" />
       <module name="test" options="-parameters" />
     </option>
   </component>
