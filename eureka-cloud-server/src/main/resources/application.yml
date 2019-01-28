@@ -8,10 +8,11 @@ spring:
   application:
     name: eureka-cloud-server
   # 搭建集群(代码内部指定.---后指定另一个这里背景色(无法解析)就没有了)
-  profiles: salve1
+  profiles: slave1
 eureka:
   instance:
     hostname: slave1
+  client:
     #    注册到下面一个配置
     default-address-resolution-order: http://slave2:8762/eureka/
 ---
@@ -24,5 +25,6 @@ spring:
 eureka:
   instance:
     hostname: slave2
+  client:
     #    注册到上一个配置
     default-address-resolution-order: http://slave1:8761/eureka/

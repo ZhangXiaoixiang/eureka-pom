@@ -37,6 +37,7 @@ public class ProviderApi {
         map.put("startPage", startPage);
         map.put("pageSize", pageSize);
         System.out.println("进入了提供者服务调用层===>" + playerInfoService.getPlayerInfoByCondition(map));
+
         return playerInfoService.getPlayerInfoByCondition(map);
     }
 }
