@@ -1,7 +1,7 @@
-package com.dmeo.eureka.provider.dao;
+package com.demo.eureka.provider.dao;
 
 
-import com.dmeo.eureka.provider.model.PlayerInfo;
+import com.demo.eureka.provider.model.PlayerInfo;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

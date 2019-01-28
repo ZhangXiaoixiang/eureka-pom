@@ -1,8 +1,7 @@
-package com.dmeo.eureka.provider;
+package com.demo.eureka.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 //依赖service扫描(扫描多了就失效了,注意)

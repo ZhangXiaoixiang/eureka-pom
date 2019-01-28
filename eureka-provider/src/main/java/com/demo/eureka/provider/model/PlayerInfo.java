@@ -1,4 +1,4 @@
-package com.dmeo.eureka.provider.model;
+package com.demo.eureka.provider.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

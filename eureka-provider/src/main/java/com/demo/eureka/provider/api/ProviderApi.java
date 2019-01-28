@@ -1,8 +1,8 @@
-package com.dmeo.eureka.provider.api;
+package com.demo.eureka.provider.api;
 
 
-import com.dmeo.eureka.provider.model.PlayerInfo;
-import com.dmeo.eureka.provider.service.PlayerInfoService;
+import com.demo.eureka.provider.model.PlayerInfo;
+import com.demo.eureka.provider.service.PlayerInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;

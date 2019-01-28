@@ -1,7 +1,7 @@
-package com.dmeo.eureka.provider;
+package com.demo.eureka.provider;
 
-import com.dmeo.eureka.provider.dao.PlayerInfoDao;
-import com.dmeo.eureka.provider.model.PlayerInfo;
+import com.demo.eureka.provider.dao.PlayerInfoDao;
+import com.demo.eureka.provider.model.PlayerInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

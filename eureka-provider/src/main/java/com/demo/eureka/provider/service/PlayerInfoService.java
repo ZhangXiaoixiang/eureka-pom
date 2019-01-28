@@ -1,9 +1,9 @@
-package com.dmeo.eureka.provider.service;
+package com.demo.eureka.provider.service;
 
 
 
-import com.dmeo.eureka.provider.model.PlayerInfo;
-import com.dmeo.eureka.provider.dao.PlayerInfoDao;
+import com.demo.eureka.provider.model.PlayerInfo;
+import com.demo.eureka.provider.dao.PlayerInfoDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
