@@ -12,6 +12,7 @@
         <module name="eureka-health-provider" />
         <module name="eureka-health-server" />
         <module name="eureka-pom" />
+        <module name="eureka-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="eureka-health-provider" options="-parameters" />
       <module name="eureka-health-server" options="-parameters" />
       <module name="eureka-pom" options="" />
+      <module name="eureka-provider" options="-parameters" />
       <module name="test" options="-parameters" />
     </option>
   </component>
